@@ -38,7 +38,7 @@ enum {
 };
 
 enum {
-	// socket has reveived syn-ack (notification only for outgoing connection completion)
+	// socket has reveived syn-ack (for outgoing connection completion) or data (for incoming connection completion)
 	// this implies writability
 	UTP_STATE_CONNECT = 1,
 
